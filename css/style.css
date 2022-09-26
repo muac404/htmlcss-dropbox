@@ -16,6 +16,7 @@ h1{
 }
 
 h2{
+    font-size: 45px;
     padding-top: 120px;
 }
 
@@ -212,4 +213,28 @@ hr{
 
 .features .primary-button{
     width: 100%;
+}
+
+.row-sub-plans{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team-solutions{
+    padding: 0;
+    margin: 20px;
+}
+
+.col-sub-1{
+    width: 50%;
+}
+
+.col-sub-2 .primary-button{
+    padding: 10px 35px;
+    margin-right: 20px;
+}
+
+.team-solutions span{
+    margin-top: 10px;
 }
