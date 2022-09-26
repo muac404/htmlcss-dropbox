@@ -10,18 +10,35 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+h1{
+    font-size: 78px;
+    padding-top: 60px;
+}
 
 /* COMMON */
 .container-big{
-   
+   max-width: 1200px;
+   margin: auto;
 }
 
 .container-small{
    
 }
 
+.row-hero{
+    display: flex;
+}
+
 li{
     list-style: none;
+    padding: 15px;
+}
+
+.primary-button{
+    padding: 10px 15px;
+    border: none;
+    color: white;
+    background-color: #0061ff;
 }
 
 /* MAIN */
@@ -45,7 +62,39 @@ header{
     
 }
 
-li{
-    padding: 10px;
+.hero{
+    background-color: #b4d0e7;
 }
 
+.row-hero{
+    margin-top: 50px;
+}
+.col-1-hero{
+    width: 30%;
+}
+
+.col-2-hero{
+    width: 70%;
+}
+
+.col-2-hero img{
+    width: 100%;
+    position: relative;
+    
+}
+
+.annulla{
+    
+    margin-top: 30px;
+}
+
+.col-1-hero .primary-button{
+    margin-top: 30px;
+    font-size: 18px;
+    
+}
+
+.fa-arrow-down{
+    margin-top: 100px;
+    font-size: 50px;
+}
