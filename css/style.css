@@ -73,6 +73,7 @@ li{
     border: none;
     color: white;
     background-color: #0061ff;
+    font-size: 15px;
 }
 
 /* MAIN */
@@ -166,6 +167,8 @@ header{
 .plans-row{
     display: flex;
     justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .colonna-1{
@@ -198,4 +201,9 @@ hr{
 .fa-check{
     color: #0061ff;
     font-weight: bolder;
+}
+
+.features .primary-button{
+    width: 100%;
+    
 }
