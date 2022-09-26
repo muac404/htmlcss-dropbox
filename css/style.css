@@ -67,7 +67,7 @@ header{
 }
 
 .row-hero{
-    margin-top: 50px;
+    margin-top: 10px;
 }
 .col-1-hero{
     width: 30%;
@@ -95,6 +95,12 @@ header{
 }
 
 .fa-arrow-down{
-    margin-top: 100px;
+    margin-top: 90px;
     font-size: 50px;
+    
+}
+
+.row-hero{
+    position: relative;
+    bottom: -65px;
 }
