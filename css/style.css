@@ -174,13 +174,12 @@ header{
 }
 .colonna-2{
     width: 30%;
-    border: 1px solid black;
+    border: 1px solid lightgrey;
 }
 .colonna-3{
     width: 30%;
-    border: 1px solid black;
+    border: 1px solid lightgrey;
 }
-
 .col-header{
     text-align: center;
     padding: 10px;
