@@ -183,6 +183,13 @@ header{
     width: 30%;
     border: 1px solid lightgrey;
 }
+
+.colonna-4{
+    width: 100%;
+    border: 1px solid lightgrey;
+}
+
+
 .col-header{
     text-align: center;
     padding: 10px;
