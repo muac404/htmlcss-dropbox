@@ -188,6 +188,7 @@ header{
 .colonna-4{
     width: 100%;
     border: 1px solid lightgrey;
+    margin-bottom: 40px;
 }
 
 
@@ -219,6 +220,7 @@ hr{
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
 }
 
 .team-solutions{
