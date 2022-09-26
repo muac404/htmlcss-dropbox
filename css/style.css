@@ -18,6 +18,35 @@ h1{
 h2{
     padding-top: 120px;
 }
+
+h4{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+h5{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+h6{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.punti-salienti{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 30px;
+
+}
+.sub-price{
+    font-size: 15px;
+    
+    margin: 20px;
+}
 /* COMMON */
 .container-big{
    max-width: 1200px;
@@ -132,4 +161,42 @@ header{
 
 .checkbox{
     margin-top: 30px;
+}
+
+.plans-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colonna-1{
+    width: 30%;
+    border: 1px solid lightgrey;
+}
+.colonna-2{
+    width: 30%;
+    border: 1px solid black;
+}
+.colonna-3{
+    width: 30%;
+    border: 1px solid black;
+}
+
+.col-header{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.plan-details{
+    padding: 10px;
+}
+
+hr{
+    width: 60px;
+    border: 0.2px solid lightgrey;
+}
+
+.fa-check{
+    color: #0061ff;
+    font-weight: bolder;
 }
