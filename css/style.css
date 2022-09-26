@@ -15,6 +15,9 @@ h1{
     padding-top: 60px;
 }
 
+h2{
+    padding-top: 120px;
+}
 /* COMMON */
 .container-big{
    max-width: 1200px;
@@ -22,6 +25,8 @@ h1{
 }
 
 .container-small{
+    max-width: 1000px;
+    margin: auto;
    
 }
 
@@ -103,4 +108,28 @@ header{
 .row-hero{
     position: relative;
     bottom: -65px;
+}
+
+.radio{
+    margin-right: 20px;
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.radio span{
+    padding-right: 20px;
+}
+
+.mensile{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.annuale{
+    display: inline-block;
+}
+
+.checkbox{
+    margin-top: 30px;
 }
