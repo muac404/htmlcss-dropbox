@@ -16,7 +16,7 @@ h1{
 }
 
 h2{
-    font-size: 42px;
+    font-size: 40px;
     padding-top: 120px;
 }
 
@@ -455,4 +455,32 @@ li p{
     height: 50%;
     background-color: #ffd830;
 
+}
+
+.row-blue{
+    background-color: #b4d0e7;
+}
+.business-row-2{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.col-business-row-1{
+    width: 50%;
+}
+
+.col-business-row-1 h2{
+    padding-top: 0;
+    margin-top:80px;
+    margin-bottom:80px;
+    color: #61082b;
+}
+
+.col-business-row-2 button{
+    margin-top: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
 }
