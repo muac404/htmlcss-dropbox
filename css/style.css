@@ -484,3 +484,26 @@ li p{
     padding-right: 30px;
     border: none;
 }
+
+.faq{
+    display:flex;
+    justify-content: space-between;
+}
+
+.faq p{
+    padding-left: 0;
+}
+
+.faq{
+    padding-left: 0;
+}
+
+.faq-header{
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+.faq hr{
+    width: 100%;
+    border: 1px solid black;
+    color: black;
+}
