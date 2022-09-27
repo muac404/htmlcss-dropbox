@@ -280,3 +280,22 @@ hr{
     margin-left: 40px;
     margin-top: 20px;
 }
+
+.business-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.business-card{
+    width: 30%;
+    margin-top: 40px;
+    
+}
+
+.business-card img{
+    width: 100%;
+}
+
+.business-card h4{
+    margin-left: 0;
+}
