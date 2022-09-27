@@ -16,7 +16,7 @@ h1{
 }
 
 h2{
-    font-size: 45px;
+    font-size: 42px;
     padding-top: 120px;
 }
 
@@ -298,4 +298,8 @@ hr{
 
 .business-card h4{
     margin-left: 0;
+}
+
+#scopri{
+    margin-top: 40px;
 }
