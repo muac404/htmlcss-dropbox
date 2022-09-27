@@ -303,3 +303,74 @@ hr{
 #scopri{
     margin-top: 40px;
 }
+
+.partners-section
+{
+    display: flex;
+   margin-top: 120px;
+    
+}
+
+.partners-col-left{
+    display: flex;
+    flex-wrap: wrap;
+    width: 33vw;
+    height: 33vw;
+}
+
+.arizona{
+    width: 50%;
+    height: 50%;
+    background-color: #61082b;
+    
+}
+
+.florida{
+    width: 50%;
+    height: 50%;
+    background-color: #0093ce;
+    
+}
+
+.designit{
+    width: 50%;
+    height: 50%;
+    background-color: #a2d39b;
+    
+}
+.designit-c{
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    
+}
+
+
+.topps{
+    width: 50%;
+    height: 50%;
+    color: white;
+    background-color: #ff1c1c;
+}   
+.partners-col-central{
+    
+    width: 33vw;
+    height: 33vw;
+}
+
+.partners-col-right{
+    display: flex;
+    flex-wrap: wrap;
+    width: 33vw;
+    height: 33vw;
+}
+
+
+.partners-section img{
+    position: relative;
+    
+    top: 50%;
+    width: 100%;
+    filter: invert(100);
+
+}
