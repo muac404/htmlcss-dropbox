@@ -319,13 +319,15 @@ hr{
 }
 
 .arizona{
+    position: relative;
     width: 50%;
     height: 50%;
     background-color: #61082b;
-    
+
 }
 
 .florida{
+    position: relative;
     width: 50%;
     height: 50%;
     background-color: #0093ce;
@@ -333,29 +335,34 @@ hr{
 }
 
 .designit{
+    position: relative;
     width: 50%;
     height: 50%;
     background-color: #a2d39b;
     
 }
+
+
+
 .designit-c{
     width: 50%;
     height: 50%;
-    background-color: white;
+    background-color: #f5f5f5;
     
 }
 
 
 .topps{
+    position: relative;
     width: 50%;
     height: 50%;
     color: white;
     background-color: #ff1c1c;
 }   
 .partners-col-central{
-    
     width: 33vw;
     height: 33vw;
+    background-color: #f5f5f5;
 }
 
 .partners-col-right{
@@ -366,11 +373,86 @@ hr{
 }
 
 
-.partners-section img{
-    position: relative;
+.partners-col-left img{
     
-    top: 50%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     width: 100%;
-    filter: invert(100);
+    filter: invert(1);
+    padding: 50px;
+    
+
+}
+
+.partners-col-right img{
+    
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    filter: invert(1);
+    padding: 50px;
+    
+
+}
+
+.partners-col-central img{
+    
+    
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    
+
+}
+
+li p{
+    padding-left:20px;
+}
+
+.hr{
+    padding-left:35px;
+}
+
+.bicycle{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    background-color: #d5001f;
+
+}
+
+.hearst{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    background-color: #b4d0e7;
+
+}
+
+.lonely-planet{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    background-color: #0d2481;
+
+}
+
+.clear-channel{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    background-color: #ffd830;
 
 }
