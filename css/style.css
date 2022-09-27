@@ -76,6 +76,13 @@ li{
     background-color: #0061ff;
     font-size: 15px;
 }
+.secondary-button{
+    padding: 10px 15px;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    font-size: 15px;
+}
 
 /* MAIN */
 
@@ -241,4 +248,35 @@ hr{
 .team-solutions span{
     margin-top: 10px;
     
+}
+
+.partner{
+    display: flex;
+}
+
+.col-left-partner{
+    width: 60%;
+    margin-top: 60px;
+}
+
+.col-left-partner img{
+    width: 100%;
+}
+
+.col-right-partner{
+    width: 40%;
+    margin-top: 100px;
+}
+
+.col-right-partner p{
+    padding-left: 40px;
+}
+
+.col-right-partner h4{
+    padding-left: 20px;
+}
+
+.col-right-partner .secondary-button{
+    margin-left: 40px;
+    margin-top: 20px;
 }
