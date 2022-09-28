@@ -78,6 +78,10 @@ li{
     cursor:pointer;
     
 }
+
+.primary-button:hover{
+    background-color: #3984FF;
+}
 .secondary-button{
     padding: 10px 15px;
     border: 1px solid black;
@@ -87,9 +91,14 @@ li{
     cursor:pointer;
 }
 
+.secondary-button:hover{
+    background-color: rgb(220, 222, 225);
+}
+
 /* MAIN */
 
 header{
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -565,6 +574,11 @@ footer{
 
 .col-footer span{
     cursor:pointer;
+
+}
+
+.col-footer span:hover{
+    text-decoration: underline;
 
 }
 
