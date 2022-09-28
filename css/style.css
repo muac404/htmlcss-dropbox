@@ -75,6 +75,7 @@ li{
     color: white;
     background-color: #0061ff;
     font-size: 15px;
+    cursor:pointer;
     
 }
 .secondary-button{
@@ -83,7 +84,7 @@ li{
     color: black;
     background-color: white;
     font-size: 15px;
-    
+    cursor:pointer;
 }
 
 /* MAIN */
@@ -103,11 +104,13 @@ header{
 .header-left ul{
     display: flex;
     align-items: center;
+    cursor:pointer;
 }
 
 .header-right ul{
     display: flex;
     align-items: center;
+    cursor:pointer;
     
 }
 
@@ -537,6 +540,12 @@ footer{
 .col-footer li{
     padding: 7px 0;
     color: white;
+    
+}
+
+.col-footer span{
+    cursor:pointer;
+
 }
 
 .language li{
@@ -550,4 +559,12 @@ footer{
 
 .language span{
     color: grey;
+}
+
+.fa-caret-up{
+    cursor:pointer;
+}
+
+.fa-chevron-down{
+    cursor: pointer;
 }
