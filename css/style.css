@@ -303,6 +303,12 @@ hr{
 
 .business-card img{
     width: 100%;
+    transition: all 2s;
+}
+
+.business-card img:hover{
+    width: 100%;
+    scale: 0.8;
 }
 
 .business-card h4{
