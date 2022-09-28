@@ -393,9 +393,15 @@ hr{
     bottom: 0;
     width: 100%;
     filter: invert(1);
+    cursor: pointer;
     padding: 50px;
-    
+    transition: all 2s;
 
+}
+
+.partners-col-left img:hover{
+    scale: 0.7;
+    transform: rotate(360deg);
 }
 
 .partners-col-right img{
@@ -409,9 +415,17 @@ hr{
     width: 100%;
     filter: invert(1);
     padding: 50px;
+    transition: all 2s;
+    cursor: pointer;
     
 
 }
+
+.partners-col-right img:hover{
+    scale: 0.7;
+    transform: rotate(360deg);
+}
+
 
 .partners-col-central img{
     
