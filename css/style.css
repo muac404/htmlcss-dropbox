@@ -362,6 +362,7 @@ hr{
 .partners-col-central{
     width: 33vw;
     height: 33vw;
+    overflow-y: auto;
     background-color: #f5f5f5;
 }
 
@@ -506,4 +507,41 @@ li p{
     width: 100%;
     border: 1px solid black;
     color: black;
+}
+
+footer{
+    background-color: black;
+    margin-top: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.row-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-footer h4{
+    margin: 0;
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    
+}
+
+.col-footer li{
+    padding: 7px 0;
+    color: white;
+}
+
+.language li{
+    padding-left: 0;
+}
+
+.language hr{
+    margin-top: 60px;
+    width: 100px;
+}
+
+.language span{
+    color: grey;
 }
